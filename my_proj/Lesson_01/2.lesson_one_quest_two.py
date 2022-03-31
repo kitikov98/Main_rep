@@ -1,0 +1,20 @@
+ax_primer=17/2*3+2
+ay_primer=((17/2)*3)+2
+print('ax_primer=17/2*3+2;','ay_primer=((17/2)*3)+2')
+print(ax_primer,ay_primer,ax_primer==ay_primer)
+bx_primer=2+17/2*3
+by_primer=2+((17/2)*3)
+print('bx_primer=2+17/2*3;','by_primer=(2+((17/2)*3))')
+print(bx_primer,by_primer,bx_primer==by_primer)
+cx_primer = 19 % 4+15/2*3
+cy_primer=((19%4)+((15/2)*3))
+print('cx_primer=19%4+15/2*3;','cy_primer=((19%4)+((15/2)*3))')
+print(cx_primer,cy_primer,cx_primer==cy_primer)
+dx_primer=(15+6)-10*4
+dy_primer=((15+6)-(10*4))
+print('dx_primer=(15+6)-10*4;','dy_primer=((15+6)-(10*4))')
+print(dx_primer,dy_primer,dx_primer==dy_primer)
+ex_primer=17/2%2*3**3
+ey_primer=((17/2)%2)*(3**3)
+print('ex_primer=17/2%2*3**3','ey_primer=((17/2)%2)*(3**3)',ex_primer==ey_primer)
+print(ex_primer,ey_primer,ex_primer==ey_primer)
