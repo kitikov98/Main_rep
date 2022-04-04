@@ -7,7 +7,7 @@ clients = []
 
 s = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
 s.bind((host, port))
-"dd"
+
 quit = False
 print("[ Server Started ]")
 

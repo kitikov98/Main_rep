@@ -4,7 +4,7 @@ key = 8194
 
 shutdown = False
 join = False
-"dd"
+
 def receving (name, sock):
 	while not shutdown:
 		try:
