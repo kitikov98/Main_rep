@@ -29,4 +29,3 @@ for proc in psutil.process_iter(['pid','cmdline','username','memory_percent','cp
         continue
     else:
         print(f"{proc.info['pid']:_^10}{proc.info['username']:^20}{proc.info['memory_percent']:^16.2f}{proc.info['cpu_percent']:^16.2f}{proc.info['cmdline']}")
-
